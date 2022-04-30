@@ -51,12 +51,11 @@
         updateBannerVisibility();
       }
 
-      var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/BackroomsWebGL.loader.js";
+      var loaderUrl =  "/BackroomsWebGL.loader.js";
       var config = {
-        dataUrl: buildUrl + "/Backrooms v1.6 - WebGL.data.gz",
-        frameworkUrl: buildUrl + "/BackroomsWebGL.framework.js.gz",
-        codeUrl: buildUrl + "/Backrooms v1.6 - WebGL.wasm.gz",
+        dataUrl:  "/Backrooms v1.6 - WebGL.data.gz",
+        frameworkUrl: "/BackroomsWebGL.framework.js.gz",
+        codeUrl: "/Backrooms v1.6 - WebGL.wasm.gz",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "IEP",
         productName: "Backrooms",
@@ -95,7 +94,7 @@
         canvas.style.height = "600px";
       }
 
-      canvas.style.background = "url('" + buildUrl + "/Backrooms v1.6 - WebGL.jpg') center / cover";
+      canvas.style.background = "url('" + "/Backrooms v1.6 - WebGL.jpg') center / cover";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");
